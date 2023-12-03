@@ -1,0 +1,147 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size:16px;
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 850px;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 20px;
+  padding-left: 60px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+header img {
+  width: 170px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap:46px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #424241;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+section.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title h1 {
+  font-size: 120px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  line-height: 100px;
+  color: #424241;
+  margin-bottom: 0;
+  margin-top: 0;
+  max-width: 800px;
+}
+
+.title span {
+  color: #7EDAD2;
+}
+
+.title p {
+  color: #909090;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  width: 719px;
+}
+
+.title a {
+  text-decoration: none;
+  color: white;
+  background-color: #7EDAD2;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 60px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+section.total {
+  display: flex;
+  justify-content: space-between;
+  width:40%;
+}
+
+.total div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.total p {
+  margin: 0px;
+}
+
+.total div>p:first-child {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  
+}
+
+.hero img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  width: 55%;
+}
+
+section.service {
+  display: flex;
+  justify-content: space-between;
+  gap:28px;
+  margin-top: 40px;
+}
+
+.service div {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 32px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.service div h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #424241;
+  margin-bottom: 0;
+}
+
+.service div p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #909090;
+  margin-top: 16px;
+}
